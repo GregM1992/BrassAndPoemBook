@@ -1,2 +1,6 @@
 //create your ProductType class here
-asdas
+public class ProductType
+{
+    public string Title { get; set; }
+    public int Id { get; set; }
+}

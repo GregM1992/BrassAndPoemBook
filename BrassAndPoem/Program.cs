@@ -1,11 +1,50 @@
-﻿
-//create a "products" variable here to include at least five Product instances. Give them appropriate ProductTypeIds.
+﻿List<Product> products = new()
+{
+    new Product()
+    {
+        Name = "Trumpet",
+        Price = 4326.00m,
+        ProductTypeId = 1,
+    },
+    new Product()
+    {
+        Name = "Greg's Big Book of Poems and Other Atrocities",
+        Price = 205.00m,
+        ProductTypeId = 2,
+    },
+    new Product()
+    {
+        Name = "French Horn",
+        Price = 4000.00m,
+        ProductTypeId = 1,
+    },
+    new Product()
+    {
+        Name = "Whispers of the Wind Beyond the Trees",
+        Price = 333.00m,
+        ProductTypeId = 2,
+    },
+    new Product()
+    {
+        Name = "Tuba",
+        Price = 2500.00m,
+        ProductTypeId = 1,
+    }
+};
 
-//create a "productTypes" variable here with a List of ProductTypes, and add "Brass" and "Poem" types to the List. 
-
-//put your greeting here
-
-//implement your loop here
+List<ProductType> productType = new()
+{
+    new ProductType()
+    {
+        Title = "Brass",
+        Id = 1,
+    },
+   new ProductType()
+    {
+        Title = "Book",
+        Id = 2,
+    }
+};
 
 void DisplayMenu()
 {
